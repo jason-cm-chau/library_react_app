@@ -34,8 +34,9 @@ function BookInfo({ books, addToCart, cart})  {
                                 <img src= {book.url} alt="" className="book__selected--img" />
                             </figure>
                             <div className="book__selected--description">
-                                <h2 className="book__selected--title"></h2>
+                                <h2 className="book__selected--title">
                                 {book.title}
+                                </h2>
                                 <div className="book__selected--price">
                                     <Price salePrice={
                                         book.salePrice}
